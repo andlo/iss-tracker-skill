@@ -29,7 +29,7 @@ class IssTracker(MycroftSkill):
     def handle_tracker_iss(self, message):
         # get the 'current' latitude and longitude of the ISS from open-notify.org in JSON
         reqISSLocation = requests.get("http://api.open-notify.org/iss-now.json")
-        issObj = json.loads(reqISSLocation.text) # JSON payload of ISS location data
+        issObj = json.loads(reqISSLocation.text)  # JSON payload of ISS location data
         latISS = issObj['iss_position']['latitude']
         lngISS = issObj['iss_position']['longitude']
 
@@ -37,8 +37,8 @@ class IssTracker(MycroftSkill):
         # This is "Reverse Gecoding" availbe from geonames.org
         # Sign up for a free user name at http://www.geonames.org/ and repalce YourUserName with it
         # !! remember to activate web servoces for your user name !!
-        oceanGeoNamesReq = "http://api.geonames.org/oceanJSON?lat="+ latISS +"&lng="+ lngISS +"&username=mycroft_iss_tracker"
-        landGeoNamesReq  = "http://api.geonames.org/countryCodeJSON?formatted=true&lat=" + latISS + "&lng=" + lngISS +"&username=mycroft_iss_tracker&style=full"
+        oceanGeoNamesReq = "http://api.geonames.org/oceanJSON?lat=" + latISS + "&lng=" + lngISS + "&username=mycroft_iss_tracker"
+        landGeoNamesReq = "http://api.geonames.org/countryCodeJSON?formatted=true&lat=" + latISS + "&lng=" + lngISS + "&username=mycroft_iss_tracker&style=full"
 
         self.log.info(oceanGeoNamesReq)
         self.log.info(landGeoNamesReq)
@@ -67,4 +67,3 @@ class IssTracker(MycroftSkill):
 
 def create_skill():
     return IssTracker()
-
