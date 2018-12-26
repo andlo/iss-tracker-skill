@@ -7,9 +7,9 @@ to the earth in latitude and longitude. it uses reverse geocoding to translate t
 into the conntry or body of water it is over.
 
 ## Examples
- - "Where is the international space station"
- - "Locate i s s"
- - "Where is i s s"
+ * Where is the international space station
+ * Locate i s s
+ * Where is i s s
 
 ## Credits
 @lachendeKatze
