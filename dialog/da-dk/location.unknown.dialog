@@ -1,0 +1,4 @@
+Beklager {{latitude}} Breddegrad {{longitude}} længdegrad er ikke kendt
+Beklager Rumstationen er ved {{latitude}} breddegrad {{longitude}} længdegrad, men jeg ved ikke, hvor dette er
+Det er ved {{latitude}} latitude {{longitude}} længdegrad, som ikke er kodet i denne database
+ISS'en er nu over {{latitude}} latitude {{longitude}} længdegrad, men der er ingen tilknyttet geografisk funktion

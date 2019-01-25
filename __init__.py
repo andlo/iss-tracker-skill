@@ -32,13 +32,13 @@ class IssTracker(MycroftSkill):
         issObj = json.loads(reqISSLocation.text)  # JSON payload of ISS location data
         latISS = issObj['iss_position']['latitude']
         lngISS = issObj['iss_position']['longitude']
-
+        lang = self.lang[:2]
         # construct a string witj ISS lat & long to determine a geographic object/toponym associated with it
         # This is "Reverse Gecoding" availbe from geonames.org
         # Sign up for a free user name at http://www.geonames.org/ and repalce YourUserName with it
         # !! remember to activate web servoces for your user name !!
-        oceanGeoNamesReq = "http://api.geonames.org/oceanJSON?lat=" + latISS + "&lng=" + lngISS + "&username=mycroft_iss_tracker"
-        landGeoNamesReq = "http://api.geonames.org/countryCodeJSON?formatted=true&lat=" + latISS + "&lng=" + lngISS + "&username=mycroft_iss_tracker&style=full"
+        oceanGeoNamesReq = "http://api.geonames.org/oceanJSON?lat=" + latISS + "&lng=" + lngISS + "&lang=" + lang + "&username=mycroft_iss_tracker"
+        landGeoNamesReq = "http://api.geonames.org/countryCodeJSON?formatted=true&lat=" + latISS + "&lng=" + lngISS + "&lang=" + lang + "&username=mycroft_iss_tracker&style=full"
 
         self.log.info(oceanGeoNamesReq)
         self.log.info(landGeoNamesReq)
