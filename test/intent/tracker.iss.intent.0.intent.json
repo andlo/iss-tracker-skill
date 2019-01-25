@@ -1,0 +1,5 @@
+{
+    "expected_dialog": "location.current",
+    "intent_type": "tracker.iss.intent",
+    "utterance": "Where is the international space station"
+}
