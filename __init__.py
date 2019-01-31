@@ -17,6 +17,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
 from mycroft import MycroftSkill, intent_file_handler
+from mycroft.util.format import pronounce_number
 import requests
 import json
 
@@ -32,6 +33,8 @@ class IssTracker(MycroftSkill):
         issObj = json.loads(reqISSLocation.text)  # JSON payload of ISS location data
         latISS = issObj['iss_position']['latitude']
         lngISS = issObj['iss_position']['longitude']
+        latISSstr = pronounce_number(float(latISS), lang=self.lang, places=4)
+        lngISSstr = pronounce_number(float(lngISS), lang=self.lang, places=4)
         lang = self.lang[:2]
         # construct a string witj ISS lat & long to determine a geographic object/toponym associated with it
         # This is "Reverse Gecoding" availbe from geonames.org
@@ -60,9 +63,9 @@ class IssTracker(MycroftSkill):
 
         # print "the ISS is over: " + toponym
         if toponym == "unknown":
-            self.speak_dialog("location.unknown", {"latitude": latISS, "longitude": lngISS})
+            self.speak_dialog("location.unknown", {"latitude": latISSstr, "longitude": lngISSstr})
         else:
-            self.speak_dialog("location.current", {"latitude": latISS, "longitude": lngISS, "toponym": toponym})
+            self.speak_dialog("location.current", {"latitude": latISSstr, "longitude": lngISSstr, "toponym": toponym})
 
 
 def create_skill():
