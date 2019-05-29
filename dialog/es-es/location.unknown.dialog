@@ -1,0 +1,4 @@
+Lo siento, {{latitude}} latitud {{longitude}} longitud es desconocido
+Lo siento La estación espacial esta a {{latitude}} latitud {{longitude}} longitud pero desconozco donde queda
+Está a {{latitude}} latitud {{longitude}} longitud el cual no está configurado en mi base de datos.
+La I S S está ahora sobre {{latitude}} latitud {{longitude}} longitud pero no hay un espacio geográfico asociado

@@ -1,13 +1,5 @@
-# This file is auto translated by mycroft-msk. 
-# Please do a manuel inspection of the translation 
- 
-# The I S S is over {{latitude}} latitude {{longitude}} longitude which corresponds to {{toponym}}
-Die I S S ist über {{latitude}} Breitengrad {{longitude}} Längengrad, der {{toponym}} entspricht.  
-# The space station is at {{latitude}} latitude {{longitude}} longitude over {{toponym}}
-Die Raumstation befindet sich auf {{latitude}} Latitude {{longitude}} Longitude über {{toponym}}.  
-# It's at {{latitude}} latitude {{longitude}} longitude, over {{toponym}}
-Es ist bei {{latitude}} Latitude {{longitude}} Longitude, über {{toponym}}.  
-# The international space station is now over {{toponym}} at {{latitude}} latitude {{longitude}} longitude
-Die internationale Raumstation ist jetzt über {{toponym}} auf {{latitude}} Latitude {{longitude}} Longitude  
-# Over {{toponym}} at {{latitude}} latitude and {{longitude}} longitude
-Über {{toponym}} am {{latitude}} Breitengrad und {{longitude}} Längengrad  
+Die I S S befindet sich derzeit über dem {{latitude}} Breiten- und {{longitude}} Längengrad, dies entspricht {{toponym}}
+Die Raumstation ist auf dem {{latitude}} Breiten- und {{longitude}} Längengrad über {{toponym}}
+Sie ist auf dem {{latitude}} Breiten- und {{longitude}} Längengrad, über {{toponym}}
+Die internationale Raumstation ist jetzt über {{toponym}} dem {{latitude}} Breiten- und {{longitude}} Längengrad
+Über {{toponym}} dem {{latitude}} Breiten- und {{longitude}} Längengrad

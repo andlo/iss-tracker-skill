@@ -1,0 +1,4 @@
+Ne pare rău {{latitude}} latitudine {{longitude}} longitudine nu este cunoscută
+Ne pare rău Stația spațială este la {{latitude}} latitudine {{longitudine}} longitudine, dar nu știu unde este asta
+Este la {{latitude}} latitudine {{longitude}} longitudine care nu este codificată în baza de date
+ISS este acum deasupra {{latitude}} latitudine {{longitude}} longitudine, dar nu există nicio denumire geografică asociată

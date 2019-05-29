@@ -1,5 +1,5 @@
-I S S er over {{latitude}} latitude {{longitude}} længdegrad, der svarer til {{toponym}}
-Rumstationen er ved {{latitude}} breddegrad {{longitude}} længdegrad over {{toponym}}
-Den er ved {{latitude}} breddegrad {{longitude}} længdegrad, over {{toponym}}
-Den internationale rumstation er nu over {{toponym}} ved {{latitude}} breddegrad {{longitude}} længdegrad
-Over {{toponym}} ved {{latitude}} breddegrad og {{longitude}} længdegrad
+I S S er over {{latitude}} længdegrad {{longitude}} bredegrad som passer med {{toponym}}
+Rumstationener på {{latitude}} bredegrad {{longitude}} længdegrad over {{toponym}}
+Den er på {{latitude}} bredegrad {{longitude}} længdegrad, over {{toponym}}
+Den internationale rmstation er nu over {{toponym}} på {{latitude}} bredegrad {{longitude}} længdegrad
+Over {{toponym}} på {{latitude}} bredegrad og {{longitude}} længdegrad
