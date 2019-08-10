@@ -1,0 +1,4 @@
+Désolé mais la latitude {{latitude}} et la longitude {{longitude}} n'est pas un point connu
+La Station spatiale est à une latitude de {{latitude}} et une longitude de {{longitude}} mais je ne sais pas où cela se situe, désolé
+Elle est à une latitude de {{latitude}} et une longitude de {{longitude}} qui ne sont pas enregistrés dans ma base de données
+L'ISS est à une latitude de {{latitude}} et une longitude de {{longitude}} mais il n'y a aucun point géographique associé

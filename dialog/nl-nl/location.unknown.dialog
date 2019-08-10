@@ -1,0 +1,4 @@
+Sorry, {{latitude}} breedtegraad en {{longitude}} lengtegraad is niet mogelijk
+Sorry, het ruimtestation bevindt zich op {{latitude}} breedtegraad en {{longitude}} lengtegraad, maar ik weet niet waar dat is
+Het bevindt zich momenteel op {{latitude}} breedtegraad en {{longitude}} lengtegraad wat momenteel niet geprogrammeerd is in de database
+Het I S S hangt nu boven {{latitude}} breedtegraad en {{longitude}} lengtegraad, maar hier is geen geografische element aan gekoppeld

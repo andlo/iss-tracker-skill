@@ -1,11 +1,4 @@
-# This file is auto translated by mycroft-msk. 
-# Please do a manuel inspection of the translation 
- 
-# Sorry {{latitude}} latitude {{longitude}} longitude is not known
-Entschuldigung {{latitude}} Latitude {{longitude}} Längengrad ist nicht bekannt  
-# Sorry The space station is at {{latitude}} latitude {{longitude}} longitude but I don't know where this is
-Entschuldigung Die Raumstation befindet sich auf {{latitude}} Latitude {{longitude}} Longitude, aber ich weiß nicht, wo dies ist  
-# It's at {{latitude}} latitude {{longitude}} longitude which is not coded in this database
-Es ist bei {{latitude}} Latitude {{longitude}} Longitude, die in dieser Datenbank nicht codiert ist  
-# The ISS is now over {{latitude}} latitude {{longitude}} longitude but there is no associated geographic feature
-Die ISS befindet sich jetzt über der geographischen Breite, aber es ist kein geographisches Merkmal vorhanden  
+Entschuldige, der {{latitude}} Breiten- und {{longitude}} Längengrad ist unbekannt
+Entschuldige Die Raumstation ist über dem {{latitude}} Breiten- und {{longitude}} Längengrad ich weiß jedoch nicht wo dieses ist
+Sie ist über dem {{latitude}} Breiten- und {{longitude}} Längengrad, welche nicht in der Datenbank verzeichnet sind
+Die I S S ist über dem {{latitude}} Breiten- und {{longitude}} Längengrad, aber es ist kein geographisches Merkmal zugeordnet

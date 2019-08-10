@@ -1,0 +1,4 @@
+Desculpe, {{latitude}} latitude {{longitude}} longitude não é conhecida
+Desculpe, a estação espacial está em {{latitude}} latitude {{longitude}} longitude mas eu não sei onde isso é
+É em {{latitude}} latitude {{longitude}} longitude que não está codificada neste banco de dados
+A ISS agora ultrapassou a longitude de {{latitude}} de latitude {{longitude}}, mas não há recurso geográfico associado
