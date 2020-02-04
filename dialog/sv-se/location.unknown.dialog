@@ -1,0 +1,4 @@
+Ledsen {{latitud}} latitud {{longitud}} longitud är inte känd
+Ledsen Rymdstationen är på {{latitud}} latitud {{longitud}} longitud men jag vet inte var det är
+Det är på {{latitud}} latitud {{longitud}} longitud som inte är kodat i denna databas
+ISS är nu över {{latitude}} latitude {{longitude}} longitud men det finns ingen tillhörande geografisk funktion
